@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+    <fieldset>
+        <legend><b>Datos personales</b></legend>
+        <p>Nombre: <input type="text" name="Nombre"></p>
+        <p>Apellidos <input type="text" name="Apellidos"></p>
+        <p>Edad <input type="text" name="Edad"></p>
+
+        <p>Género</p>
+        <p>
+            <input type="radio" name="sexo" value="h"> Hombre
+            <input type="radio" name="sexo" value="m"> Mujer
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><b>Contacto</b></legend>
+        <p>Correo electrónico: <input type="text" name="Correo"></p>
+        <p>Códogo postal <input type="text" name="Codigo Postal"></p>
+        <p>Dirección <input type="text" name="Dirección"></p>
+        <p>Ciudad:
+            
+            <select name="Ciudades" size="1">
+            <option value="Jaén" >Jaén</option>
+            <option value="Granada" >Granada</option>
+            <option value="Córdoba" >Córdoba</option>
+            <option value="Sevilla" >Sevilla</option>
+            <option value="Almería" >Almería</option>
+            </select>
+        </p>
+        <p>Contraseña:
+            <input type="password" name="Contraseña" size="20">
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Datos de Interés</b></legend>
+        <p>Estado Civil:</p>
+        <p>
+            <input type="radio" name="Estado Civil" value="h"> Casado
+            <input type="radio" name="Estado Civil" value="m"> Soltero
+        </p>
+        <p>Hobbies:</p>
+            <p><input type="checkbox" name="Videojuegos" > Videojuegos </p>
+            <p><input type="checkbox" name="Fútbol" > Fútbol </p>
+            <p><input type="checkbox" name="Programar" > Programar </p>
+            <p><input type="checkbox" name="Investigar" > Investigación </p>
+            <p><input type="checkbox" name="Leer" > Lectura </p>
+    </fieldset>
+    
+    <fieldset>
+        <legend><b>Comentarios Adicionales</b></legend>
+        <p>Escribe aquí tus comentarios:</p>
+        <p><textarea name="comentario" rows="4" cols="27" placeholder="Escribe tus comentarios aquí..."></textarea>
+        </p>
+    </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Resetear">
+        </p>
+</body>
+</html>
